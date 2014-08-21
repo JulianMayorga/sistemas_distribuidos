@@ -10,8 +10,8 @@ var Persona = require('./persona.js')
 // 1. Defino constructor
 function Empleado (nombre, apellido, id, id_empleado) {
   // 2. Llamo al constructor de Persona
-	Persona.call(this, nombre, apellido, id);
-	this.id_empleado = id_empleado;
+  Persona.call(this, nombre, apellido, id);
+  this.id_empleado = id_empleado;
 }
 
 // 3. Crear prototipo de Empleado que herede de prototipo de Persona

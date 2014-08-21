@@ -7,14 +7,14 @@
 
 // Defino constructor
 function Persona(nombre, apellido, id) {
-	this.nombre = nombre;
-	this.apellido = apellido;
-	this.id = id;
+  this.nombre = nombre;
+  this.apellido = apellido;
+  this.id = id;
 }
 
 // Defino metodo de Persona
 Persona.prototype.getnombre = function () {
-	return this.nombre + ' ' + this.apellido;
+  return this.nombre + ' ' + this.apellido;
 };
 
 // Exporto el objeto Persona
