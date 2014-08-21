@@ -1,3 +1,8 @@
+/*
+ *  Buena practica: Modularizar componentes
+ *    http://nodejs.org/api/modules.html
+ */
+
 'use strict';
 
 function contarEspacios(texto) {

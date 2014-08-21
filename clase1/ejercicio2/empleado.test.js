@@ -1,3 +1,8 @@
+/*
+ * Buena practica: Detectar errores en el codigo con jsHint
+ *    http://www.jshint.com/
+ */
+
 'use strict';
 
 var Empleado = require('./empleado.js');

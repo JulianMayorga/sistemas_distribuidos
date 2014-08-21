@@ -1,3 +1,8 @@
+/*
+ *  Buena practica: Realizar pruebas automatizadas
+ *  para verificar el funcionamiento de cada componente
+ */
+
 'use strict';
 
 var contarEspacios = require('./contarEspacios.js');
